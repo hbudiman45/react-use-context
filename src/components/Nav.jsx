@@ -7,7 +7,10 @@ const Nav = props => {
     <nav className="navbar navbar-dark bg-dark justify-content-between">
       <div className="container">
         <span className="navbar-brand mb-0 h1">React State Management</span>
-        <span className="text-white">Total Movies: {movies.length}</span>
+        <span className="text-white">
+          Total Movies:{" "}
+          <span className="badge badge-warning">{movies.length}</span>
+        </span>
       </div>
     </nav>
   );

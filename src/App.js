@@ -8,8 +8,7 @@ function App() {
     <MovieProvider>
       <div className="App">
         <Nav />
-        <h1>React State Management</h1>
-        <hr />
+        <br />
         <div className="row justify-content-center">
           <div className="col-4">
             <MovieList />
